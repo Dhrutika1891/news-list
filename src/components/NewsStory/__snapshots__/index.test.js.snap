@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component news story should render news story 1`] = `
+<body>
+  <div>
+    <div
+      class="news-story"
+      data-testid="news-story"
+    >
+      <img
+        alt="News"
+        class="news-story__image"
+        data-testid="news-story-image"
+      />
+      <div
+        class="news-story__container"
+        data-testid="news-story-container"
+      >
+        <h3
+          data-testid="news-story-title"
+        />
+        <h6
+          data-testid="news-story-subtitle"
+        />
+        <div
+          data-testid="news-story-detail"
+        />
+        <a
+          data-testid="news-story-link"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Read more...
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+`;

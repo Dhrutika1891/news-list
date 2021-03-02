@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component page status should render page status 1`] = `
+<body>
+  <div>
+    <div
+      class="page-status"
+      data-testid="page-status"
+    >
+      <div
+        data-testid="status-loading"
+      >
+        <div
+          class="spinner-border text-primary"
+        />
+        <div>
+          Loading...
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`component page status should render page status empty 1`] = `
+<body>
+  <div>
+    <div
+      class="page-status"
+      data-testid="page-status"
+    >
+      <p
+        data-testid="status-empty"
+      >
+        There was no result for the page. Please refresh the page or contact support Team.
+      </p>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`component page status should render page status error 1`] = `
+<body>
+  <div>
+    <div
+      class="page-status"
+      data-testid="page-status"
+    >
+      <p
+        data-testid="status-error"
+      >
+        There was an error loading the page. Please refresh the page or contact support Team.
+      </p>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`component page status should render page status loading 1`] = `
+<body>
+  <div>
+    <div
+      class="page-status"
+      data-testid="page-status"
+    >
+      <div
+        data-testid="status-loading"
+      >
+        <div
+          class="spinner-border text-primary"
+        />
+        <div>
+          Loading...
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

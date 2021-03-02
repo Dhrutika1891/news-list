@@ -1,0 +1,22 @@
+.news-story {
+  display: grid;
+  grid-template-columns: 50px auto;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid grey;
+  width: 100%;
+
+  &__image {
+    height: 50px;
+    width: 50px;
+  }
+
+  &__container {
+    display: grid;
+    gap: 5px;
+    > h3,
+    h6 {
+      margin-bottom: 0px;
+    }
+  }
+}
